@@ -1,0 +1,14 @@
+<suite name="test1" verbose="1">
+
+	<listeners>
+    	<listener class-name="utilities.ITestListenerClass"></listener>
+    	<listener class-name="utilities.TestRetryAnalyzerListener"></listener>
+	</listeners>
+	
+	<test name="POMframework">
+		<classes>
+			<class name="tests.Search_TRN_View_Checking_Test"></class>
+			
+		</classes>
+	</test>
+</suite>

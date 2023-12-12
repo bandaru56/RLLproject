@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T13:04:47 IST" name="Default suite" finished-at="2023-12-11T13:05:40 IST" duration-ms="53241">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T13:04:47 IST" name="Default test" finished-at="2023-12-11T13:05:40 IST" duration-ms="53241">
+      <class name="Testpages.TestingHomepage">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Testpages.TestingHomepage@2d901eb0]" started-at="2023-12-11T13:04:47 IST" name="OpenApp" finished-at="2023-12-11T13:05:00 IST" duration-ms="13151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testLogin()[pri:1, instance:Testpages.TestingHomepage@2d901eb0]" started-at="2023-12-11T13:05:00 IST" name="testLogin" finished-at="2023-12-11T13:05:06 IST" duration-ms="5763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="CheckingDetails()[pri:2, instance:Testpages.TestingHomepage@2d901eb0]" started-at="2023-12-11T13:05:06 IST" name="CheckingDetails" finished-at="2023-12-11T13:05:40 IST" duration-ms="33990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingDetails -->
+        <test-method signature="CloseBrowser()[pri:3, instance:Testpages.TestingHomepage@2d901eb0]" started-at="2023-12-11T13:05:40 IST" name="CloseBrowser" finished-at="2023-12-11T13:05:40 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Testpages.TestingHomepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
